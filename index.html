@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.css">
+		<link rel="stylesheet" href="./assets/style.css">
+	</head>
+	<body>
+		<header>
+
+		</header>
+
+		<main>
+			<ui-view></ui-view>
+		</main>
+
+		<footer class="page-footer light-green darken-3">
+				<div class="row">
+					<a class="col s2 m2 l2 green-text text-lighten-3 center-align" ui-sref="home">home</a>
+					<a class="col s2 m2 l2 green-text text-lighten-3 center-align" ui-sref="about">about</a>
+					<a class="col s2 m2 l2 green-text text-lighten-3 center-align" ui-sref="projects">projects</a>
+					<a class="col s2 m2 l2 green-text text-lighten-3 center-align" ui-sref="personal">personal</a>
+					<div class="col s4 m4 l4 grey-text text-lighten-4 right-align" href="#!">
+						<a class="" href="https://twitter.com/SheaClose"><img class="soc-logo" src="Assets/icons/twitter-logo copy.png"/></a>
+						<a class="" href="https://www.linkedin.com/in/sheaclose"><img class="soc-logo" src="Assets/icons/linkedin-logo copy.png"/></a>
+						<a class="" href="https://github.com/SheaClose"><img class="soc-logo" src="Assets/icons/github-logo copy.png"/></a>
+					</div>
+				</div>
+		</footer>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+		<script src="./angular/app.js"></script>
+		<script src="./angular/homectrl.js"></script>
+		<script src="./angular/homeService.js"></script>
+	</body>
+</html>

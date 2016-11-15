@@ -1,0 +1,41 @@
+html {
+	background: url("./imgs/photo-1438302292089-1bfacb810383.jpeg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	color: #4A4A48;
+	font-family: 'Muli', sans-serif;
+}
+.home-container {
+	margin-top: 20vh;
+}
+/*.link-pictures{
+	background-color: rgba(250, 250, 250, 0.5);
+	border-radius: 2.5vh;
+}*/
+main {
+	flex: 1 0 auto;
+}
+.web-dev{
+	margin-top: -5vh;
+}
+.links {
+	margin-top: 5vh;
+}
+footer {
+	background-color: rgb(164, 194, 165);
+}
+.page-footer {
+	background-color: rgb(164, 194, 165);
+}
+.soc-logo{
+	margin-left: 2vh;
+	margin-right: 1vh;
+	height: 3vh;
+}
