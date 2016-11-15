@@ -22,8 +22,10 @@ body {
 main {
 	flex: 1 0 auto;
 }
-.web-dev{
-	margin-top: -5vh;
+.about-body{
+	padding: 25px;
+	background-color: rgba(250, 250, 250, 0.7);
+	border-radius: 2vh;
 }
 .links {
 	margin-top: 5vh;
@@ -38,4 +40,61 @@ footer {
 	margin-left: 2vh;
 	margin-right: 1vh;
 	height: 3vh;
+}
+.resume-Name {
+	margin: 3vh 0 0 0;
+}
+.profile-box{
+	margin-top: 30px;
+}
+.no-btm-margin{
+	margin-bottom: 0;
+}
+.header-box {
+	background-color: black;
+	width: 30vw;
+	margin-top: -10px;
+	height: 30px;
+}
+.container-box {
+	border: solid 4px black;
+	padding: 40px 10px 10px 10px;
+}
+.projects-body b{
+	font-weight: bold;
+}
+BLOCKQUOTE{
+	border-left: 5px solid transparent;
+}
+.container-box-no-border{
+	padding: 40px 10px 50px 10px;
+	min-height: 40vh;
+}
+.skill-list {
+	margin-top: -14px;
+}
+.container-box-half {
+	border: solid 4px black;
+	padding: 40px 10px 10px 10px;
+	min-height: 40vh;
+}
+.work-text {
+	font-size: .75em;
+}
+.container-mod {
+  margin: 5vh auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  .container-mod {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container-mod {
+    width: 90%;
+  }
 }
