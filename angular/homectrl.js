@@ -1,4 +1,7 @@
 angular.module("app")
 .controller("homeCtrl", function($scope, homeService){
-	$scope.test = "Test"
+	let init = () => {
+		  $('.carousel.carousel-slider').carousel({full_width: true});
+	}
+	init();
 })
