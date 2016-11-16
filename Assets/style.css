@@ -101,3 +101,6 @@ BLOCKQUOTE{
 .line-spacing{
 	line-height: 190%;
 }
+.projects-page {
+	border: 10px grey solid;
+}
