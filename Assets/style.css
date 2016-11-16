@@ -1,5 +1,5 @@
 html {
-	background: url("./imgs/photo-1438302292089-1bfacb810383.jpeg") no-repeat center center fixed;
+	background: url("./imgs/background.jpeg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -101,6 +101,10 @@ BLOCKQUOTE{
 .line-spacing{
 	line-height: 190%;
 }
-.projects-page {
-	border: 10px grey solid;
+.projects-container{
+
+}
+.projects-left{
+	background-color: rgba(250, 250, 250, 0.5);
+	border-radius: 10px;
 }
