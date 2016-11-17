@@ -71,23 +71,22 @@ let photos = [
 	, collection: "fluxcapacitor"
 	, url: ["Assets/imgs/FluxCapacitor14.jpg","Assets/imgs/FluxCapacitor13.jpg","Assets/imgs/FluxCapacitor12.jpg","Assets/imgs/FluxCapacitor11.jpg","Assets/imgs/FluxCapacitor10.jpg","Assets/imgs/FluxCapacitor9.jpg","Assets/imgs/FluxCapacitor8.jpg","Assets/imgs/FluxCapacitor7.jpg","Assets/imgs/FluxCapacitor6.jpg","Assets/imgs/FluxCapacitor5.jpg","Assets/imgs/FluxCapacitor4.jpg","Assets/imgs/FluxCapacitor3.jpg","Assets/imgs/FluxCapacitor2.jpg", "Assets/imgs/FluxCapacitor1.jpg"]
 }
-, {
-	mainurl: ""
-	, desc: ""
-	, collection: ""
-	, url: [""]
-}
-,	{
-		mainurl: ""
-	, desc: ""
-	, collection: ""
-	, url: [""]
-}
-, {
-	mainurl: ""
-	, desc: ""
-	, collection: ""
-	, url: [""]
-}
-,
+// , {
+// 	mainurl: ""
+// 	, desc: ""
+// 	, collection: ""
+// 	, url: [""]
+// }
+// ,	{
+// 		mainurl: ""
+// 	, desc: ""
+// 	, collection: ""
+// 	, url: [""]
+// }
+// , {
+// 	mainurl: ""
+// 	, desc: ""
+// 	, collection: ""
+// 	, url: [""]
+// }
 ]
