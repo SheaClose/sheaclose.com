@@ -36,22 +36,22 @@ let photos = [
 	, url: ["Assets/imgs/Audrey6.jpg", "Assets/imgs/Audrey5.jpg", "Assets/imgs/Audrey4.jpg", "Assets/imgs/Audrey3.jpg", "Assets/imgs/Audrey2.jpg", "Assets/imgs/Audrey7.jpg"]
 }
 , {
-	mainurl: ""
-	, desc: ""
-	, collection: ""
-	, url: [""]
+	mainurl: "Assets/imgs/BrewStand1.jpg"
+	, desc: "Being a brewer, I'm always looking for ways to improve my process. I found myself constantly moving large volumes of very hot liquid in order to have access to a burner. Having multiple surfaces wih multiple burners was my answer."
+	, collection: "brewstand"
+	, url: ["Assets/imgs/BrewStand1.jpg", "Assets/imgs/BrewStand2.jpg", "Assets/imgs/BrewStand3.jpg"]
 }
 ,	{
-		mainurl: ""
-	, desc: ""
-	, collection: ""
-	, url: [""]
+		mainurl: "Assets/imgs/ScratchBass1.jpg"
+	, desc: "Unfortunately, no pictures of the build process, but this is a bass I built from scratch, fully to my own Specs. I call it the Blunder Bass"
+	, collection: "scratchbass"
+	, url: ["Assets/imgs/ScratchBass4.jpg", "Assets/imgs/ScratchBass3.jpg", "Assets/imgs/ScratchBass2.jpg"]
 }
 , {
-	mainurl: ""
-	, desc: ""
-	, collection: ""
-	, url: [""]
+	mainurl: "Assets/imgs/Drums12.jpg"
+	, desc: "I found some drum shells on craigslist for next to nothing. I play drums in a rockabilly/country band, and there is a style of drums known as a cocktail kit, that is not uncommon in the style. I decided to have a go at making my own."
+	, collection: "cocktailkit"
+	, url: ["Assets/imgs/Drums12.jpg", "Assets/imgs/Drums11.jpg", "Assets/imgs/Drums10.jpg", "Assets/imgs/Drums9.jpg", "Assets/imgs/Drums8.jpg", "Assets/imgs/Drums7.jpg", "Assets/imgs/Drums6.jpg", "Assets/imgs/Drums5.jpg", "Assets/imgs/Drums4.jpg", "Assets/imgs/Drums3.jpg", "Assets/imgs/Drums2.jpg", "Assets/imgs/Drums1.jpg"]
 }
 ,	{
 		mainurl: ""
