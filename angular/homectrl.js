@@ -1,9 +1,17 @@
 angular.module("app")
 .controller("homeCtrl", function($scope, homeService){
+$scope.selectedPhotos = {};
+$scope.selectedPhotos = [];
+	$scope.modal = function(num, collection) {
+		if (collection) {
+			$scope.selectedObject = homeService.selectedPhotos(collection)
+			$scope.selectedPhotos = $scope.selectedObject.url.reverse();
+		}
+		$(`#modal${num}`).modal('open')
 
-	$scope.modal = function(num) {
-		$(`#modal${num}`).modal('open');
 	}
+
+	$scope.photos = homeService.photos();
 
 	$(document).ready(function(){
 		$('.modal').modal();

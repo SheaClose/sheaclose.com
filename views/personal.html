@@ -1,3 +1,16 @@
 <my-footer></my-footer>
-<h1>Personal!</h1>
-{{test}}
+<div class="container">
+	<ul ng-repeat="photo in photos">
+		<li ng-click="modal('4', photo.collection)"><img style="width: 300px;" ng-src="{{photo.mainurl}}" alt="" /></li>
+	</ul>
+</div>
+
+<!-- Display Modal -->
+<div id="modal4" class="modal">
+	<div class="modal-content center">
+		{{selectedObject.desc}}
+		<div ng-repeat="displayPhoto in selectedPhotos" class="w3-content w3-display-container">
+			<img class="mySlides" ng-src="{{displayPhoto}}">
+		</div>
+	</div>
+</div>
