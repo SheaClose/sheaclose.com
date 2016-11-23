@@ -30,7 +30,7 @@ let photos = [
 	, url: ["Assets/imgs/04022008(014).jpg", "Assets/imgs/04022008(019).jpg", "Assets/imgs/04012008(003).jpg", "Assets/imgs/04012008(001).jpg", "Assets/imgs/04012008.jpg", "Assets/imgs/03312008(006).jpg", "Assets/imgs/03312008(004).jpg", "Assets/imgs/03312008(003).jpg", "Assets/imgs/03312008(001).jpg", "Assets/imgs/03282008(005).jpg", "Assets/imgs/03282008(002).jpg", "Assets/imgs/03282008(001).jpg", "Assets/imgs/03272008.jpg", "Assets/imgs/03262008(006).jpg", "Assets/imgs/03262008(005).jpg", "Assets/imgs/03192008.jpg"]
 }
 ,	{
-		mainurl: "Assets/imgs/Audrey1.jpg"
+		mainurl: "Assets/imgs/Audrey6.jpg"
 	, desc: "While walking through an antique store with my wife, we noticed a coffee can. Both of us recognized it immediately. We brought it home and got to work... "
 	, collection: "audrey"
 	, url: ["Assets/imgs/Audrey6.jpg", "Assets/imgs/Audrey5.jpg", "Assets/imgs/Audrey4.jpg", "Assets/imgs/Audrey3.jpg", "Assets/imgs/Audrey2.jpg", "Assets/imgs/Audrey7.jpg"]
@@ -71,12 +71,12 @@ let photos = [
 	, collection: "fluxcapacitor"
 	, url: ["Assets/imgs/FluxCapacitor14.jpg","Assets/imgs/FluxCapacitor13.jpg","Assets/imgs/FluxCapacitor12.jpg","Assets/imgs/FluxCapacitor11.jpg","Assets/imgs/FluxCapacitor10.jpg","Assets/imgs/FluxCapacitor9.jpg","Assets/imgs/FluxCapacitor8.jpg","Assets/imgs/FluxCapacitor7.jpg","Assets/imgs/FluxCapacitor6.jpg","Assets/imgs/FluxCapacitor5.jpg","Assets/imgs/FluxCapacitor4.jpg","Assets/imgs/FluxCapacitor3.jpg","Assets/imgs/FluxCapacitor2.jpg", "Assets/imgs/FluxCapacitor1.jpg"]
 }
-// , {
-// 	mainurl: ""
-// 	, desc: ""
-// 	, collection: ""
-// 	, url: [""]
-// }
+, {
+	mainurl: "Assets/imgs/LightSaber99.jpg"
+	, desc: "This is a Boba Fett inspired Light Saber that I built for my Star Wars obsessed brother-in-law. "
+	, collection: "lightsaber"
+	, url: ["Assets/imgs/LightSaber99.jpg", "Assets/imgs/LightSaber98.jpg", "Assets/imgs/LightSaber97.jpg", "Assets/imgs/LightSaber96.jpg", "Assets/imgs/LightSaber95.jpg", "Assets/imgs/LightSaber94.jpg", "Assets/imgs/LightSaber93.jpg", "Assets/imgs/LightSaber92.jpg", "Assets/imgs/LightSaber91.jpg", "Assets/imgs/LightSaber90.jpg", "Assets/imgs/LightSaber89.jpg", "Assets/imgs/LightSaber88.jpg", "Assets/imgs/LightSaber87.jpg", "Assets/imgs/LightSaber86.jpg", "Assets/imgs/LightSaber85.jpg", "Assets/imgs/LightSaber6.jpg", "Assets/imgs/LightSaber5.jpg", "Assets/imgs/LightSaber4.jpg", "Assets/imgs/LightSaber3.jpg", "Assets/imgs/LightSaber2.jpg", "Assets/imgs/LightSaber1.jpg", "Assets/imgs/LightSaber0.jpg"]
+}
 // ,	{
 // 		mainurl: ""
 // 	, desc: ""
