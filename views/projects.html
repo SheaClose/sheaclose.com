@@ -1,0 +1,208 @@
+<my-footer></my-footer>
+<!-- pagination -->
+<div class="row">
+	<ul class="pagination col s4 m3 l2 push-s4 push-m8 push-l8">
+		<div class="center-align">
+			<li ng-click="changePage('alienHunt')" class="waves-effect"><a href="">1</a></li>
+			<li ng-click="changePage('bender')" class="waves-effect"><a href="">2</a></li>
+			<li ng-click="changePage('dogCompany')" class="waves-effect"><a href="">3</a></li>
+		</div>
+	</ul>
+</div>
+<!-- Alien Hunt -->
+<div ng-show="alienHunt" class="container-mod">
+	<div class="row">
+		<!-- AlienHunt -->
+		<div class="col s12 m12 l4 projects-left">
+			<h3><a class="teal-textb " href="http://104.236.5.8/#/">Alien-Hunt</a></h3><hr>
+			<p>
+				Alien Hunt was a collaborative effort between myself and three others. The game play was inspired by the game Duck Hunt on Nintendo. I was tasked with building out the back end, as each of the other three were not as comfortable with it.
+			</p>
+			<p>
+				I built the server using Node.js. In order to store information persistently I created temporary users, using Express Sessions, as soon as the page renders. If the user chooses to log in, using passport-facebook, a permanent user is created and stored in the database using MongoDb.
+			</p>
+			<p>
+				After each level, an api call is made, updating the user information with current level and score. The user data is then returned to the front end to create a new level.
+			</p>
+			<p>
+				If the user is unable to complete a round, a new api call is made to compare current score to the high score board, and updates it if the score is high enough. After that is complete, the user's current level and score are reset to zero.
+			</p>
+
+		</div>
+		<div class="col s12 m12 l8 project-photos">
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('1')">
+						<img class="responsive-img round-img" src="Assets/imgs/AlienHuntHome.png" alt="" />
+					</a>
+				</div>
+				<div class="col s12 m12 l6">
+						<a class="waves-effect waves-light" ng-click="modal('1')">
+							<img class="responsive-img round-img" src="Assets/imgs/AlienHuntLogin.png" alt="" />
+						</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('1')">
+						<img class="responsive-img round-img" src="Assets/imgs/AlienHuntSW.png" alt="" />
+					</a>
+				</div>
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('1')">
+						<img class="responsive-img round-img" src="Assets/imgs/AlienHuntDefault.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('1')">
+						<img class="responsive-img round-img" src="Assets/imgs/AlienHuntGO.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="modal1" class="modal">
+		<div class="modal-content center">
+			<div class="w3-content w3-display-container">
+				<img class="mySlides" src="Assets/imgs/AlienHuntHome.png">
+				<img class="mySlides" src="Assets/imgs/AlienHuntLogin.png">
+				<img class="mySlides" src="Assets/imgs/AlienHuntDefault.png">
+				<img class="mySlides" src="Assets/imgs/AlienHuntSW.png">
+				<img class="mySlides" src="Assets/imgs/AlienHuntGO.png">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Bender -->
+<div ng-show="bender" class="container-mod">
+	<div class="row">
+		<div class="col s12 m12 l4 projects-left">
+			<h3><a class="teal-textb " href="http://104.236.202.251">Bender</a></h3><hr>
+			<p>
+				Bender is a Single page application, and was my first project. The app aims to make locating local craft beer and breweries easier. Using geolocation, or user provided zip codes, an api call to Google maps API is made in order to find the longitude and latitude for the user. Once that is acquired an api call is made to BreweryDb.com to find all breweries in that area. Finally, the longitude and latitude information is passed to google to update the map to create pins on the map.
+			</p>
+			<p>
+				Once the map is created, a user can select any pin on the map to obtain information about the brewery, and see their beer selection. Selecting the beer will give you more in depth information about each beer.
+			</p>
+			<p>
+				In the event a user finds themselves at a bar and is interested in a beer and just wants more information about that specific beer, there is a "Browse Beers" option, which allows for searching by beer name. This gives you infomation on that specific beer, rather than all of that breweries information.
+			</p>
+		</div>
+		<div class="col s12 m12 l8 project-photos">
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('2')">
+						<img class="responsive-img round-img" src="Assets/imgs/BenderHome.png" alt="" />
+					</a>
+				</div>
+				<div class="col s12 m12 l6">
+						<a class="waves-effect waves-light" ng-click="modal('2')">
+							<img class="responsive-img round-img" src="Assets/imgs/benderMap.png" alt="" />
+						</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('2')">
+						<img class="responsive-img round-img" src="Assets/imgs/benderBrewery.png" alt="" />
+					</a>
+				</div>
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('2')">
+						<img class="responsive-img round-img" src="Assets/imgs/benderBrews.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="modal2" class="modal">
+		<div class="modal-content center">
+			<div class="w3-content w3-display-container">
+				<img class="mySlides" src="Assets/imgs/BenderHome.png">
+				<img class="mySlides" src="Assets/imgs/benderMap.png">
+				<img class="mySlides" src="Assets/imgs/benderBrews.png">
+				<img class="mySlides" src="Assets/imgs/benderBrewery.png">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Dog Company -->
+<div ng-show="dogCompany" class="container-mod">
+	<div class="row">
+		<div class="col s12 m12 l4 projects-left">
+			<h3><a class="teal-textb " href="http://DogCompanyDtx.com/#/">Dog Company</a></h3><hr>
+			<p>
+				The Dog Company band web-page was my first attempt at a full stack website. It was created for my band as a one stop shop for all things related to Dog Company. For booking agents, there is a history of the band, and multiple ways to get in contact with us. For fans just wanting to take in our music, there is a page with links to the multitude of places online where our music can be streamed free, or purchased.
+				For those looking to pick up our merchandise outside of our shows, there is an e-commerce option as well.
+			</p>
+			<p>
+				The page was created using the MEAN stack, and was designed using a combination of Jquery, Materialize CSS, and vanilla css. Behind the scenes, there is also an admin page which allows for easy updates to the Blogs, add/remove merchandise, and even add music to the media page.
+			</p>
+			<p>
+				One of the more unique challenges I faced, was determining how to handle the e-commerce portion. Due to the constantly changing quantity and type of inventory, and lack of record keeping by the band, a standard order creation which allows for immediate purchase did not make sense. The resolution for this was a session user which tracks the cart as items are added. Once an order has been reviewed by the user, and submitted, an invoice is created and e-mailed to both the user and website manager. At that point, we are able to confirm the order can be fulfilled and submit a payment request with the order confirmation.
+			</p>
+		</div>
+		<div class="col s12 m12 l8 project-photos">
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('3')">
+						<img class="responsive-img round-img" src="Assets/imgs/DogCoHome.png" alt="" />
+					</a>
+				</div>
+				<div class="col s12 m12 l6">
+						<a class="waves-effect waves-light" ng-click="modal('3')">
+							<img class="responsive-img round-img" src="Assets/imgs/DogCoShop.png" alt="" />
+						</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('3')">
+						<img class="responsive-img round-img" src="Assets/imgs/DogCoShows.png" alt="" />
+					</a>
+				</div>
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('3')">
+						<img class="responsive-img round-img" src="Assets/imgs/DogCoAbout.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('3')">
+						<img class="responsive-img round-img" src="Assets/imgs/DogCoMedia.png" alt="" />
+					</a>
+				</div>
+				<div class="col s12 m12 l6">
+					<a class="waves-effect waves-light" ng-click="modal('3')">
+						<img class="responsive-img round-img" src="Assets/imgs/DogCoAdmin.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="modal3" class="modal">
+		<div class="modal-content center">
+			<div class="w3-content w3-display-container">
+				<img class="mySlides" src="Assets/imgs/DogCoHome.png">
+				<img class="mySlides" src="Assets/imgs/DogCoShop.png">
+				<img class="mySlides" src="Assets/imgs/DogCoAbout.png">
+				<img class="mySlides" src="Assets/imgs/DogCoShows.png">
+				<img class="mySlides" src="Assets/imgs/DogCoMedia.png">
+				<img class="mySlides" src="Assets/imgs/DogCoAdmin.png">
+			</div>
+		</div>
+	</div>
+</div>
+<!-- pagination -->
+<div class="row">
+	<ul class="pagination col s4 m3 l2 push-s4 push-m8 push-l8">
+		<div class="center-align">
+			<li ng-click="changePage('alienHunt')" class="waves-effect"><a href="">1</a></li>
+			<li ng-click="changePage('bender')" class="waves-effect"><a href="">2</a></li>
+			<li ng-click="changePage('dogCompany')" class="waves-effect"><a href="">3</a></li>
+		</div>
+	</ul>
+</div>
