@@ -1,4 +1,4 @@
-angular.module('app').controller('homeCtrl', function($scope, homeService) {
+export default function($scope, homeService) {
   $scope.selectedObjects = {};
   $scope.selectedPhotos = [];
   let photosArr = homeService.photos();
@@ -46,4 +46,4 @@ angular.module('app').controller('homeCtrl', function($scope, homeService) {
       $scope.bender = true;
     }
   };
-});
+}
