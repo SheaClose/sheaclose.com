@@ -1,5 +1,4 @@
-angular.module("app")
-.service("homeService", function() {
+export default function() {
 	this.photos = (collection) => {
 		return photos;
 	},
@@ -14,7 +13,7 @@ angular.module("app")
 		})
 		return selectedObject
 	}
-})
+}
 
 let photos = [
 	{
