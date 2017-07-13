@@ -4,18 +4,21 @@
   "description": "Portfolio site",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --watch",
-    "start": "webpack-dev-server"
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --inline --client-log-level error --entry ./react/index.js "
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
     "body-parser": "^1.17.2",
     "cors": "^2.8.3",
     "express": "^4.15.3",
     "path": "^0.12.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.1",
+    "style-loader": "^0.18.2",
     "webpack-dev-server": "^2.5.1"
   },
   "devDependencies": {
@@ -24,6 +27,7 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
     "webpack": "^3.2.0"
   }
 }
