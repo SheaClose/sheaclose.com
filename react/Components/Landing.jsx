@@ -7,7 +7,7 @@ export default class Landing extends Component {
     super(props)
     this.state = {}
 
-    axios.get('http://localhost:3000/api/blog').then((response) => {
+    axios.get('/api/blog').then((response) => {
       var blogs = response.data.sort((b, a) => a.date > b.date).map(c => {
         return (
           <div key={c.id} className="blogs_container border_radius box_shadow">

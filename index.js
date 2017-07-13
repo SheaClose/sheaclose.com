@@ -12,7 +12,7 @@ app.use("/", express.static(__dirname));
 massive(config.postgres).then(function(dbInstance){
   console.log(dbInstance);
   app.set('db', dbInstance)
-})
+}).catch(err=>console.log(err))
 
 
 app.post('/api/blog', function(req,res){

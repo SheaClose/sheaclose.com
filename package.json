@@ -4,7 +4,7 @@
   "description": "Portfolio site",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --watch",
+    "build": "webpack",
     "start": "webpack-dev-server --hot --inline --client-log-level error --entry ./react/index.js "
   },
   "author": "",
