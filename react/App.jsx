@@ -1,9 +1,8 @@
-import React from 'react';
-export default class App extends React.Component {
+import React, {Component} from 'react';
+import router from './router.jsx'
+export default class App extends Component {
   render() {
-    return (
-     <div style={{textAlign: 'center'}}>
-        <h1>Hello World</h1> 
-      </div>);
+    return (<div>{ router }</div>)
+
   }
 }

@@ -6,7 +6,7 @@ import myNav from './navDirective'
 import appConfig from './appConfig'
 
 angular.module("app", ['ui.router'])
-.controller('homeCtrl', ["$scope", "homeService", homeCtrl])
-.service('homeService', homeService)
-.config(["$stateProvider", "$urlRouterProvider", appConfig])
-.directive('myNav', myNav)
+  .controller('homeCtrl', ["$scope", "homeService", homeCtrl])
+  .service('homeService', homeService)
+  .config(["$stateProvider", "$urlRouterProvider", appConfig])
+  .directive('myNav', myNav)
