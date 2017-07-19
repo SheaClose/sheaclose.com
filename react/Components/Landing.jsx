@@ -17,11 +17,8 @@ export default class Landing extends Component {
             </div>
 
             <hr></hr>
-            <div>
-              {c.body.split('\n').map((item, key) => (
-                <p key={key}>{item}</p>
-              ))}
-            </div>
+              <div dangerouslySetInnerHTML={ {__html: c.body} }></div>
+
           </div>
         )
       });
@@ -35,6 +32,7 @@ export default class Landing extends Component {
   render() {
     return (
       <div>
+        <h1 className="dev_dev_title box_shadow border_radius">developer_Developer</h1>
         {this.state.blogs}
       </div>
     )

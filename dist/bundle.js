@@ -26576,17 +26576,7 @@ var Landing = function (_Component) {
             )
           ),
           _react2.default.createElement('hr', null),
-          _react2.default.createElement(
-            'div',
-            null,
-            c.body.split('\n').map(function (item, key) {
-              return _react2.default.createElement(
-                'p',
-                { key: key },
-                item
-              );
-            })
-          )
+          _react2.default.createElement('div', { dangerouslySetInnerHTML: { __html: c.body } })
         );
       });
 
@@ -26603,6 +26593,11 @@ var Landing = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
+        _react2.default.createElement(
+          'h1',
+          { className: 'dev_dev_title box_shadow border_radius' },
+          'developer_Developer'
+        ),
         this.state.blogs
       );
     }
@@ -27527,7 +27522,7 @@ exports = module.exports = __webpack_require__(256)(undefined);
 
 
 // module
-exports.push([module.i, ".blogs_container {\n  width: 75vw;\n  background-color: rgba(255, 255, 255, 0.75);\n  margin: 15px auto;\n  padding: 5%;\n}\n\n.inline {\n  display: inline;\n}\n\n.italic {\n  font-style: italic;\n  font-size: .8rem;\n}\n\n.flex {\n  display: flex;\n  justify-content: space-between;\n}\n\n.self_align_bottom {\n  align-self: flex-end;\n}\n\n.h3 {\n  font-size: 2.92rem;\n  line-height: 110%;\n}\n", ""]);
+exports.push([module.i, ".blogs_container {\n  width: 75vw;\n  background-color: rgba(255, 255, 255, 0.75);\n  margin: 15px auto;\n  padding: 5%;\n}\n\n.dev_dev_title {\n  width: 75vw;\n  background-color: rgba(255, 255, 255, 0.75);\n  margin: 15px auto;\n  padding: 15px;\n  text-align: center;\n  font-size: 6vw;\n}\n\n.inline {\n  display: inline;\n}\n\n.italic {\n  font-style: italic;\n  font-size: .8rem;\n}\n\n.flex {\n  display: flex;\n  justify-content: space-between;\n}\n\n.self_align_bottom {\n  align-self: flex-end;\n}\n\n.h3 {\n  line-height: 110%;\n  font-size: 3vw;\n}\n", ""]);
 
 // exports
 
