@@ -1,7 +1,7 @@
 const express = require("express"),
   cors = require("cors"),
   bodyParser = require("body-parser"),
-  port = 3005,
+  port = 3000,
   app = express(),
   massive = require("massive"),
   config = require("./server/config");
