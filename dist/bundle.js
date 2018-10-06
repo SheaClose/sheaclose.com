@@ -33418,7 +33418,7 @@ exports.default = function ($scope, homeService) {
       $scope.selectedObject = homeService.selectedPhotos(collection);
       $scope.selectedPhotos = $scope.selectedObject.url.reverse();
     }
-    $('#modal' + num).modal('open');
+    $("#modal" + num).modal("open");
   };
   photosArr.map(function (cv, i) {
     if (counter === 1) {
@@ -33434,10 +33434,11 @@ exports.default = function ($scope, homeService) {
   });
 
   $(document).ready(function () {
-    $('.modal').modal();
+    $(".modal").modal();
   });
 
-  $scope.alienHunt = true;
+  $scope.alienHunt = false;
+  $scope.todos = true;
   $scope.dogCompany = false;
   $scope.bender = false;
 
@@ -33445,13 +33446,9 @@ exports.default = function ($scope, homeService) {
     $scope.alienHunt = false;
     $scope.dogCompany = false;
     $scope.bender = false;
-    if (page === 'alienHunt') {
-      $scope.alienHunt = true;
-    } else if (page === 'dogCompany') {
-      $scope.dogCompany = true;
-    } else if (page === 'bender') {
-      $scope.bender = true;
-    }
+    $scope.todos = false;
+    $scope[page] = true;
+    console.log("$scope[" + page + "]: ", $scope[page]);
   };
 };
 

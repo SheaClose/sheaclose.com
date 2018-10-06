@@ -10,27 +10,27 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  color: #4A4A48;
-  font-family: 'Muli', sans-serif;
+  color: #4a4a48;
+  font-family: "Muli", sans-serif;
 }
 
 .home-container {
   margin-top: 15vh;
 }
-.my_circle{
+.my_circle {
   border-radius: 50%;
 }
-.border_radius{
+.border_radius {
   border-radius: 15px;
 }
-.marg_15{
+.marg_15 {
   margin-top: 15px;
 }
-.box_shadow{
+.box_shadow {
   box-shadow: 3px 3px 7.5px #2f2f2f;
 }
-.bold_text{
-  text-shadow: .75px .75px 0px #ddd;
+.bold_text {
+  text-shadow: 0.75px 0.75px 0px #ddd;
 }
 main {
   flex: 1 0 auto;
@@ -91,7 +91,7 @@ main {
   font-weight: bold;
 }
 
-BLOCKQUOTE {
+blockquote {
   border-left: 5px solid transparent;
 }
 
@@ -111,7 +111,7 @@ BLOCKQUOTE {
 }
 
 .work-text {
-  font-size: .75em;
+  font-size: 0.75em;
 }
 
 .container-mod {
@@ -146,7 +146,8 @@ BLOCKQUOTE {
   line-height: 190%;
 }
 
-.projects-container {}
+.projects-container {
+}
 
 .projects-left {
   background-color: rgba(250, 250, 250, 0.7);
@@ -180,25 +181,25 @@ BLOCKQUOTE {
   border-radius: 4px;
   color: black;
   padding: 5px;
-  color: #4A4A48;
+  color: #4a4a48;
 }
 
 .pagination a {
   color: black;
 }
 
-
 /* fallback */
 
 @font-face {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-style: normal;
   font-weight: 400;
-  src: local('Material Icons'), local('MaterialIcons-Regular'), url(../2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
+  src: local("Material Icons"), local("MaterialIcons-Regular"),
+    url(../2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format("woff2");
 }
 
 .material-icons {
-  font-family: 'Material Icons';
+  font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
   font-size: 24px;
@@ -209,22 +210,25 @@ BLOCKQUOTE {
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-  -webkit-font-feature-settings: 'liga';
+  -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
 }
-
 
 /* latin */
 
 @font-face {
-  font-family: 'Muli';
+  font-family: "Muli";
   font-style: normal;
   font-weight: 400;
-  src: local('Muli'), url(../zscZFkjVRGyfQ_Pw-5exXPesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+  src: local("Muli"),
+    url(../zscZFkjVRGyfQ_Pw-5exXPesZW2xOQ-xsNqO47m55DA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
 
 .iframe {
+  background: white;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -255,4 +259,7 @@ iframe {
 .project_title {
   font-size: 1.1rem;
   text-decoration: underline;
+}
+.mobile {
+  height: 500px;
 }
