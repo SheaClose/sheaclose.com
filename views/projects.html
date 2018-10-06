@@ -2,18 +2,65 @@
 <!-- pagination -->
 <div class="project_links_container">
 	<div class="project_links box_shadow pagination">
+		<li ng-click="changePage('dogCompany')" class="waves-effect">
+			<a href="">Dog Company</a>
+		</li>
 		<li ng-click="changePage('alienHunt')" class="waves-effect">
 			<a href="">Alien-Hunt</a>
 		</li>
 		<li ng-click="changePage('bender')" class="waves-effect">
 			<a href="">Bender</a>
 		</li>
-		<li ng-click="changePage('dogCompany')" class="waves-effect">
-			<a href="">Dog Company</a>
-		</li>
 		<li ng-click="changePage('todos')" class="waves-effect">
 			<a href="">Todos PWA</a>
 		</li>
+	</div>
+</div>
+<!-- Dog Company -->
+<div ng-show="dogCompany" class="container-mod">
+	<div class="row">
+		<div class="projects-left box_shadow">
+			<h3>
+				<a class="teal-textb " href="https://DogCompanyDtx.com/#/">Dog Company</a>
+			</h3>
+			<hr>
+			<p>
+				The Dog Company band web-page was my first attempt at a full stack website. It was created for my band as a one
+				stop shop
+				for all things related to Dog Company. For booking agents, there is a history of the band, and multiple ways to get
+				in
+				contact with us. For fans just wanting to take in our music, there is a page with links to the multitude of places
+				online
+				where our music can be streamed free, or purchased. For those looking to pick up our merchandise outside of our
+				shows,
+				there is an e-commerce option as well.
+			</p>
+			<p>
+				The page was created using the MEAN stack, and was designed using a combination of Jquery, Materialize CSS, and
+				vanilla css.
+				Behind the scenes, there is also an admin page which allows for easy updates to the Blogs, add/remove merchandise,
+				and
+				even add music to the media page.
+			</p>
+			<p>
+				One of the more unique challenges I faced, was determining how to handle the e-commerce portion. Due to the
+				constantly changing
+				quantity and type of inventory, and lack of record keeping by the band, a standard order creation which allows for
+				immediate
+				purchase did not make sense. The resolution for this was a session user which tracks the cart as items are added.
+				Once
+				an order has been reviewed by the user, and submitted, an invoice is created and e-mailed to both the user and
+				website
+				manager. At that point, we are able to confirm the order can be fulfilled and submit a payment request with the
+				order
+				confirmation.
+			</p>
+		</div>
+		<div class="row">
+			<div class="iframe">
+				<iframe class="box_shadow" src="https://dogcompanydtx.com"></iframe>
+			</div>
+		</div>
 	</div>
 </div>
 <!-- Alien Hunt -->
@@ -93,53 +140,7 @@
 		</div>
 	</div>
 </div>
-<!-- Dog Company -->
-<div ng-show="dogCompany" class="container-mod">
-	<div class="row">
-		<div class="projects-left box_shadow">
-			<h3>
-				<a class="teal-textb " href="https://DogCompanyDtx.com/#/">Dog Company</a>
-			</h3>
-			<hr>
-			<p>
-				The Dog Company band web-page was my first attempt at a full stack website. It was created for my band as a one
-				stop shop
-				for all things related to Dog Company. For booking agents, there is a history of the band, and multiple ways to get
-				in
-				contact with us. For fans just wanting to take in our music, there is a page with links to the multitude of places
-				online
-				where our music can be streamed free, or purchased. For those looking to pick up our merchandise outside of our
-				shows,
-				there is an e-commerce option as well.
-			</p>
-			<p>
-				The page was created using the MEAN stack, and was designed using a combination of Jquery, Materialize CSS, and
-				vanilla css.
-				Behind the scenes, there is also an admin page which allows for easy updates to the Blogs, add/remove merchandise,
-				and
-				even add music to the media page.
-			</p>
-			<p>
-				One of the more unique challenges I faced, was determining how to handle the e-commerce portion. Due to the
-				constantly changing
-				quantity and type of inventory, and lack of record keeping by the band, a standard order creation which allows for
-				immediate
-				purchase did not make sense. The resolution for this was a session user which tracks the cart as items are added.
-				Once
-				an order has been reviewed by the user, and submitted, an invoice is created and e-mailed to both the user and
-				website
-				manager. At that point, we are able to confirm the order can be fulfilled and submit a payment request with the
-				order
-				confirmation.
-			</p>
-		</div>
-		<div class="row">
-			<div class="iframe">
-				<iframe class="box_shadow" src="https://dogcompanydtx.com"></iframe>
-			</div>
-		</div>
-	</div>
-</div>
+<!-- Todos -->
 <div ng-show="todos" class="container-mod">
 	<div class="row">
 		<div class="projects-left box_shadow">
