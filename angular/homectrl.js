@@ -31,8 +31,8 @@ export default function($scope, homeService) {
   });
 
   $scope.alienHunt = false;
-  $scope.todos = true;
-  $scope.dogCompany = false;
+  $scope.todos = false;
+  $scope.dogCompany = true;
   $scope.bender = false;
 
   $scope.changePage = page => {
