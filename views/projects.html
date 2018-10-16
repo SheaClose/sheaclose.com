@@ -14,10 +14,13 @@
 		<li ng-click="changePage('todos')" class="waves-effect">
 			<a href="">Todos PWA</a>
 		</li>
+		<li ng-click="changePage('sniper66')" class="waves-effect">
+			<a href="">Sniper66</a>
+		</li>
 	</div>
 </div>
 <!-- Dog Company -->
-<div ng-show="dogCompany" class="container-mod">
+<div ng-if="dogCompany" class="container-mod">
 	<div class="row">
 		<div class="projects-left box_shadow">
 			<h3>
@@ -64,7 +67,7 @@
 	</div>
 </div>
 <!-- Alien Hunt -->
-<div ng-show="alienHunt" class="container-mod">
+<div ng-if="alienHunt" class="container-mod">
 	<div class="row">
 		<!-- AlienHunt -->
 		<div class="projects-left box_shadow">
@@ -104,7 +107,7 @@
 	</div>
 </div>
 <!-- Bender -->
-<div ng-show="bender" class="container-mod">
+<div ng-if="bender" class="container-mod">
 	<div class="row">
 		<div class="projects-left box_shadow">
 			<h3>
@@ -141,7 +144,7 @@
 	</div>
 </div>
 <!-- Todos -->
-<div ng-show="todos" class="container-mod">
+<div ng-if="todos" class="container-mod">
 	<div class="row">
 		<div class="projects-left box_shadow">
 			<h3>
@@ -157,6 +160,26 @@
 		<div class="row">
 			<div class="iframe">
 				<iframe class="mobile box_shadow" src="https://todos.sheaclose.com"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+<div ng-if="sniper66" class="container-mod">
+	<div class="row">
+		<div class="projects-left box_shadow">
+			<h3>
+				<a class="teal-textb " href="https://sniper66.sheaclose.com">Sniper66 Band Site</a>
+			</h3>
+			<hr>
+			<p>
+				This was a promotional website developed for a local punk band called Sniper66. Developed with React. Used SendGrid
+				to submit e-mail to band website. Due to band wanting embeded videos, getting page to load in a performant manor
+				was a real challenge.
+			</p>
+		</div>
+		<div class="row">
+			<div class="iframe">
+				<iframe class="mobile box_shadow" src="https://sniper66.sheaclose.com"></iframe>
 			</div>
 		</div>
 	</div>
