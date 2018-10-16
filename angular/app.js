@@ -1,6 +1,6 @@
 import '../angular.js';
 import '../angular-ui-router.js'
-import homeCtrl from './homeCtrl'
+import homeCtrl from './homectrl'
 import homeService from './homeService'
 import myNav from './navDirective'
 import appConfig from './appConfig'
