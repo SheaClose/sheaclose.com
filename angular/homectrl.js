@@ -30,16 +30,13 @@ export default function($scope, homeService) {
     $(".modal").modal();
   });
 
-  $scope.alienHunt = false;
-  $scope.todos = false;
   $scope.dogCompany = true;
-  $scope.bender = false;
-
   $scope.changePage = page => {
     $scope.alienHunt = false;
     $scope.dogCompany = false;
     $scope.bender = false;
     $scope.todos = false;
+    $scope.sniper66 = false;
     $scope[page] = true;
     console.log(`$scope[${page}]: `, $scope[page]);
   };
