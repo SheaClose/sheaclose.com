@@ -74,6 +74,7 @@ export default {
 
 <style scoped lang="scss">
 .footer {
+  background: lightgray;
   hr {
     color: red;
   }
