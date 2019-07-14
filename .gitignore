@@ -26,3 +26,5 @@ node_modules
 # Parcel cache
 .cache
 oldPortfolio
+myapp.zip
+dist
