@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://dogcompanydtx.com",
+    "imgUrl": "https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/dogco-final.png",
+    "title": "Dog Company",
+    "desc": "The Dog Company band web-page was my first attempt at a full stack website. It was created for my band as a one stop shop for all things related to Dog Company. For booking agents, there is a history of the band, and multiple ways to get in contact with us. For fans just wanting to take in our music, there is a page with links to the multitude of places online where our music can be streamed free, or purchased. For those looking to pick up our merchandise outside of our shows, there is an e-commerce option as well.",
+    "technology": "<ul><li>VueJs</li><li>NuxtJs</li><li>ExpressJs</li><li>MongoDb</li></ul>"
+  },
+  {
+    "url": "https://alienhunt.sheaclose.com",
+    "imgUrl": "https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/alienhunt-final.png",
+    "title": "Alien Hunt",
+    "desc": "Alien Hunt was a collaborative effort between myself and three others. The game play was inspired by the game Duck Hunt on Nintendo. I built the server using Node.js, database using MongoDb.",
+    "technology": "<ul><li>AngularJs</li><li>ExpressJs</li><li>MongoDb</li><li>PixiJs</li></ul>"
+  },
+  {
+    "url": "https://bender.sheaclose.com",
+    "imgUrl": "https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/bender-final.png",
+    "title": "Bender",
+    "desc": "Bender is a Single page application, and was my first project. The app aims to make locating local craft beer and breweries easier. The api on which this app was created has been severly limited on it's free-tier, so this app is not quite as useful as it once was.",
+    "technology": "<ul><li>AngularJs</li><li>BrewDb</li></ul>"
+  },
+  {
+    "url": "https://sheaclose.github.io/#/",
+    "imgUrl": "https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/sheaclose-final.png",
+    "title": "Portfolio",
+    "desc": "My first attempt at a portforlio website. It was my final project while attending DevMountain. It's a rather simple app, created using AngularJs over the course of a couple of days.",
+    "technology": "<ul><li>AngularJs</li></ul>"
+  },
+  {
+    "url": "https://sniper66.com",
+    "imgUrl": "https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/sniper66.png",
+    "title": "Sniper 66",
+    "desc": "This was a promotional website developed for a local punk band called Sniper66. Developed with React. Used SendGrid to submit e-mail to band website. Due to band wanting embeded videos, getting page to load in a performant manor was a real challenge.",
+    "technology": "<ul><li>ReactJs</li><li>NodeJs</li><li>PWA</li><li>SQL (massiveJs)</li><li>Sass</li><li>SendGrid</li></ul>"
+  },
+  {
+    "url": "https://todos.sheaclose.com",
+    "imgUrl": "https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/todos-final.png",
+    "title": "Todos App",
+    "desc": "This application was created primarily as a means of making a Progressive web application. It was written using React, Express, and Sql. The app is cached so that it can be used offline, and all todos are stored on the devices local storage.",
+    "technology": "<ul><li>ReactJs</li><li>NodeJs</li><li>PWA</li><li>SQL (massiveJs)</li></ul>"
+  }
+]
