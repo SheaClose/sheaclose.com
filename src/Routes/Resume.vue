@@ -1,7 +1,7 @@
 <template>
-  <div class="resume-background">
+  <div class="resume-background p-grid">
     <router-link to="/" class="back">&#60; BACK</router-link>
-    <div class="resume">
+    <div class="resume p-col-12 p-md-10">
       <div class="header">
         <h1>Shea Close</h1>
         <h4>WEB DEVELOPER/DEVOPS - DALLAS, TX</h4>
@@ -157,15 +157,20 @@ export default {
   background: lightgrey;
   .resume {
     background: #fff;
-    width: 80vw;
     margin: auto;
     text-align: left;
     padding: 3em;
+    @media (max-width: 768px) {
+      padding: 2em;
+    }
+    @media (max-width: 500px) {
+      padding: 1em;
+    }
     .header {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      width: 85%;
+      // width: 85%;
       margin: auto;
       p {
         padding: 12px 0px;
