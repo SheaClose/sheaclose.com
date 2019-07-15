@@ -6,8 +6,10 @@
         src="https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/Screen+Shot+2019-07-09+at+8.12.41+PM.png"
         aria-disabled
       />
-      <h2>Shea Close</h2>
-      <h5>Web Engineer</h5>
+      <router-link to="/resume" class="router-link">
+        <h2>Shea Close</h2>
+        <h5>Web Engineer</h5>
+      </router-link>
     </div>
   </div>
 </template>
@@ -24,5 +26,8 @@
   border-radius: 50%;
   box-shadow: 3px 3px 5px 0px #999;
   margin-bottom: 12px;
+}
+.router-link {
+  color: black;
 }
 </style>

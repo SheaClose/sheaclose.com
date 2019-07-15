@@ -46,7 +46,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .projects {
   margin: 0px;
   padding: 0;
@@ -54,6 +54,9 @@ export default {
     padding: 0 10vh;
     font-size: 1.25em;
     text-align: left;
+    .title {
+      margin-left: -10px;
+    }
   }
   .button {
     margin: 50px 0;

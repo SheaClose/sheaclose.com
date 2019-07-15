@@ -14,7 +14,7 @@
         <div class="p-align-center">{{ tool }}</div>
       </div>
     </div>
-    <div class="p-col-4 p-offset-8 icons">
+    <div class="p-col-6 p-offset-6 p-md-4 p-md-offset-8 icons">
       <a :href="icon.linkUrl" v-for="icon in iconUrls" :key="icon.linkUrl">
         <img :src="icon.iconUrl" aria-disabled />
       </a>
@@ -29,7 +29,7 @@ export default {
     return {
       techs: ["Javascript", "Bash", "Python"],
       tools: [
-        "AngularJs/2/4/5/7",
+        "AngularJs/7",
         "ReactJs",
         "ReactNative",
         "VueJs",
@@ -46,6 +46,11 @@ export default {
         "Terraform"
       ],
       iconUrls: [
+        {
+          iconUrl:
+            "https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/img_122647.svg",
+          linkUrl: "/resume"
+        },
         {
           iconUrl:
             "https://s3.ca-central-1.amazonaws.com/assets.sheaclose.com/email.svg",
