@@ -18,7 +18,8 @@
           I am driven by a need to create. I have worked professionally as a pastry chef, home
           renovator, and web developer. Even my hobbies (which include brewing beer, refinishing
           musical instruments, and making movie prop replicas) are focused on creation. There is
-          little I enjoy more than starting with an idea and seeing it through to a completed product.
+          little I enjoy more than starting with an idea and seeing it through to a completed
+          product.
         </p>
         <br />
         <p>
@@ -43,12 +44,16 @@
             <li>Teaching DevMountain's web development curriculum.</li>
             <li>Improving, updating, and re-writing lessons and projects.</li>
             <li>Managing mentors and students.</li>
-            <li>Overseeing the maintenance, creation, and improvement of DevMountain web applications.</li>
+            <li>
+              Overseeing the maintenance, creation, and improvement of DevMountain web applications.
+            </li>
           </ul>
           <h5>DevMountain • Lead Mentor | Junior Developer • 2017 - 2018</h5>
           <ul>
             <li>Supervised team of student mentors.</li>
-            <li>Led mentors on school software applications by assigning tasks, reviewing code, etc.</li>
+            <li>
+              Led mentors on school software applications by assigning tasks, reviewing code, etc.
+            </li>
             <li>
               Maintained code-base of DevMountain sub-domain, support lead instructor with Web
               Development curriculum concepts.
@@ -60,7 +65,10 @@
               Ensured student success with Web Development curriculum by helping students debug
               their practice problems, projects, and other challenges.
             </li>
-            <li>Provide one-on-one or small group tutoring to review lectures from the lead instructor.</li>
+            <li>
+              Provide one-on-one or small group tutoring to review lectures from the lead
+              instructor.
+            </li>
             <li>
               Build/enhance DevMountain proprietary software applications using HTML, Git, React,
               Javascript, Node, SQL, etc.
@@ -71,7 +79,7 @@
       </div>
       <div class="skills box p-grid">
         <h4>SKILLS</h4>
-        <div class="p-col-6 p-md-4 p-lg-3" v-for="skill in skills" :key="skill">{{skill}}</div>
+        <div class="p-col-6 p-md-4 p-lg-3" v-for="skill in skills" :key="skill">{{ skill }}</div>
       </div>
       <div class="listicles box">
         <h4>PROJECTS</h4>
@@ -81,14 +89,20 @@
             <a href="https://youtu.be/MNMDMmt2QbE">walkthrough</a>
           </h5>
           <ul>
-            <li>Used REST Db queries to obtain brewery and craft beer information to display on a map showing user's location</li>
+            <li>
+              Used REST Db queries to obtain brewery and craft beer information to display on a map
+              showing user's location
+            </li>
             <li>Created using AngularJs, Angular-google-maps, and Bootstrap.</li>
           </ul>
           <h5>
-            <a href="https://dogcompanydtx.com">Dog Company</a> - Band portfolio & E-commerce
+            <a href="https://dogcompany.sheaclose.com">Dog Company</a> - Band portfolio & E-commerce
           </h5>
           <ul>
-            <li>Band website which provides contact for booking agents, media for fans, and a store for purchasing Merchandise.</li>
+            <li>
+              Band website which provides contact for booking agents, media for fans, and a store
+              for purchasing Merchandise.
+            </li>
             <li>Created using MEAN Stack, WebPack, MaterializeCss, ES6, Jquery.</li>
           </ul>
           <h5>
@@ -112,8 +126,14 @@
           <a href="https://devmountain.com">DevMountain</a> - Aug-Nov 2016
           <ul>
             <li>12 week, immersive, web-development program focused on MEAN stack.</li>
-            <li>Gained working knowledge of JavaScript, HTML/CSS, Jquery, Angular, Mongo, Node, Express, and Git/Github.</li>
-            <li>Through class projects, gained working knowledge of Materialize CSS/Bootstrap, WebPack, OAuth.</li>
+            <li>
+              Gained working knowledge of JavaScript, HTML/CSS, Jquery, Angular, Mongo, Node,
+              Express, and Git/Github.
+            </li>
+            <li>
+              Through class projects, gained working knowledge of Materialize CSS/Bootstrap,
+              WebPack, OAuth.
+            </li>
           </ul>
         </div>
       </div>
@@ -125,26 +145,26 @@ export default {
   data() {
     return {
       skills: [
-        "JavaScript",
-        "HTML/CSS",
-        "Sass",
-        "Bootstrap",
-        "Git",
-        "Jquery",
-        "Angular",
-        "React ",
-        "ReactNative",
-        "VueJs ",
-        "Node.js",
-        "Express",
-        "Loopback",
-        "MongoDb",
-        "SQL",
-        "WebPack",
-        "Parcel",
-        "Digital Ocean",
-        "AWS Cloud Services",
-        "Terraform"
+        'JavaScript',
+        'HTML/CSS',
+        'Sass',
+        'Bootstrap',
+        'Git',
+        'Jquery',
+        'Angular',
+        'React ',
+        'ReactNative',
+        'VueJs ',
+        'Node.js',
+        'Express',
+        'Loopback',
+        'MongoDb',
+        'SQL',
+        'WebPack',
+        'Parcel',
+        'Digital Ocean',
+        'AWS Cloud Services',
+        'Terraform'
       ]
     };
   }
