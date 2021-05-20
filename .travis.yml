@@ -3,11 +3,13 @@ sudo: required
 language: node_js
 notifications:
   email: false
-node_js: "8"
+node_js: '8'
 
 install:
   - npm i
-  - pip install awscli --upgrade --user
+  - pyenv global 3.6.3
+  - pip install -U pip
+  - pip install awscli
 
 script:
   - npm run build
